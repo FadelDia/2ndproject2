@@ -1,0 +1,12 @@
+df['2022 Population'].fillna(df['2022 Population'].median(), inplace=True)
+df['2020 Population'].fillna(df['2020 Population'].median(), inplace=True)
+df['2015 Population'].fillna(df['2015 Population'].median(), inplace=True)
+df['2010 Population'].fillna(df['2010 Population'].median(), inplace=True)
+df['2000 Population'].fillna(df['2000 Population'].median(), inplace=True)
+df['1990 Population'].fillna(df['1990 Population'].median(), inplace=True)
+df['1980 Population'].fillna(df['1980 Population'].median(), inplace=True)
+df['1970 Population'].fillna(df['1970 Population'].median(), inplace=True)
+df['Area (km²)'].fillna(df['Area (km²)'].median(), inplace=True)
+df['Density (per km²)'].fillna(df['Density (per km²)'].median(), inplace=True)
+df['Growth Rate'].fillna(df['Growth Rate'].median(), inplace=True)
+
